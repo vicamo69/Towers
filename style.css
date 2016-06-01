@@ -1,3 +1,35 @@
 body {
 	background-color: #2EC9CC;
 	}
+	ul {
+	width: 60%;
+	}
+	li {
+		display:inline-block;
+	}
+	figure {
+		border: 1px solid aqua;
+		padding: 1em;
+		background-color: gray;
+	}
+	figure img {
+		width: 10em;
+		height: 10em;
+	}
+	figcaption {
+		text-align: center;
+		color: white;
+		font-style: italic;
+		padding-top: .25em;
+	}
+	a img.large_image{
+		display: none;
+		width: 25em;
+	}
+	a:hover img.large_image {
+		display: block;
+		position: absolute;
+		right: 2em;
+		top: 5em;
+		cursor: crosshair;
+	}
